@@ -1,8 +1,8 @@
 ---
 name: ESPLENDOR
-version: "1.0"
+version: "1.1"
 date: "2026-11-12"
-status: design-approved-implementation-in-candidate-only
+status: design-approved-candidate-implementation-muse-review-required
 colors:
   canvas: "#F6F0E8"
   ink: "#2B2320"
@@ -146,3 +146,18 @@ Don't：
 - Apply only to reviewed, unpublished candidate pages; maintain source and version history before deployment.
 - For the mobile product page, the in-flow primary button may span its container; a separate compact sticky buy bar is an exception.
 - This document is a **design specification**, not a claim that any production site has been modified.
+
+
+## 12. Review accountability (v1.1)
+
+- **Implementation:** Codex or other approved development executor must first check the unpublished candidate identity and latest source baseline; preserve native commercial functionality and record focused file diffs.
+- **Review:** Muse in the designated “website redesign review” workspace checks the brand colors, typography, spacing, image ratios, per-page Night-section count, accessibility, and screenshots at 375px / 1280px.
+- **Evidence:** Each criterion is PASS, FAIL, BLOCKED or N/A, with source revision and reproducible evidence. A failed or blocked item is never silently accepted; valid prior checks remain valid only when the impacted code and environment have not changed.
+- **Release:** Deployment, customer checkout behavior, payments, business rules, pixels, or changes to existing policies are outside the design-only scope. A separate, explicit store-owner approval is required before publication.
+
+## 13. Scope notes (v1.1)
+
+- Theme-owned primary actions use Bronze; third-party payment branding and inaccessible checkout controls are not overridden.
+- Aspect ratios are targets requiring suitable real source photos; do not crop off product details.
+- Specifying font-family alone does not demonstrate that the web fonts were actually loaded.
+- All application results remain unpublished candidates until reviewed with the current live theme and verified page templates.
